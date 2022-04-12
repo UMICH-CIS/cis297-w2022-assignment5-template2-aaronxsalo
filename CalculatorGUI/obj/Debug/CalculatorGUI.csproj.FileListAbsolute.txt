@@ -15,3 +15,4 @@ C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment5-template2-aaronxsalo\Ca
 C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment5-template2-aaronxsalo\CalculatorGUI\obj\Debug\CalculatorGUI.csproj.CoreCompileInputs.cache
 C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment5-template2-aaronxsalo\CalculatorGUI\obj\Debug\CalculatorGUI.exe
 C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment5-template2-aaronxsalo\CalculatorGUI\obj\Debug\CalculatorGUI.pdb
+C:\Users\saloa\Documents\GitHub\cis297-w2022-assignment5-template2-aaronxsalo\CalculatorGUI\bin\Debug\CalculatorGUI.xml

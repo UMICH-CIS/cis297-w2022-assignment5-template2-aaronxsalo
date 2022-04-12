@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatorGUI</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatorGUI.Calculator">
+            <summary>
+            This class implements the calculator functionality for the application
+            </summary>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.RemoveWhite(System.String)">
+            <summary>
+            method that removes whitespace from input string
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.ReverseString(System.String)">
+            <summary>
+            method that reverses input string
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.QuotientRemainder(System.Int32,System.Int32)">
+            <summary>
+            method finds the quotient and remainder while dividing the inputs
+            </summary>
+            <param name="n1"></param>
+            <param name="n2"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.LogTen(System.Double)">
+            <summary>
+            method finds log base 10 of the input
+            </summary>
+            <param name="n"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.LogX(System.Double,System.Double)">
+            <summary>
+            method finds the log base second input of the first input
+            </summary>
+            <param name="n"></param>
+            <param name="x"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.MinMax(System.Int32,System.Int32)">
+            <summary>
+            method finds the min and max of the inputs
+            </summary>
+            <param name="n1"></param>
+            <param name="n2"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.Power(System.Int32,System.Int32)">
+            <summary>
+            method finds first input to the power of the second input
+            </summary>
+            <param name="n1"></param>
+            <param name="n2"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.Quadratic(System.Double,System.Double,System.Double)">
+            <summary>
+            method uses Quadratic object to calculate quadratic equation with the three inputs
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+        </member>
+        <member name="M:CalculatorGUI.Calculator.SquareRoot(System.Double)">
+            <summary>
+            method square root of the input
+            </summary>
+            <param name="n"></param>
+        </member>
+        <member name="F:CalculatorGUI.CalculatorGUIForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CalculatorGUI.CalculatorGUIForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CalculatorGUI.CalculatorGUIForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CalculatorGUI.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:CalculatorGUI.Quadratic">
+            <summary>
+            This class implements the quadratic equation for the application
+            </summary>
+        </member>
+        <member name="M:CalculatorGUI.Quadratic.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            Constructor for Quadratic class. Sets a, b, c, and valid bool.
+            </summary>
+            <param name="coA"></param>
+            <param name="coB"></param>
+            <param name="coC"></param>
+        </member>
+        <member name="M:CalculatorGUI.Quadratic._CalcDiscriminant">
+            <summary>
+            Calculates the discriminant for the equation. Called in Display function.
+            </summary>
+        </member>
+        <member name="M:CalculatorGUI.Quadratic._CalcRoot">
+            <summary>
+            Calculates the root(s) for the equation. Called in Display function.
+            </summary>
+        </member>
+        <member name="M:CalculatorGUI.Quadratic.Display">
+            <summary>
+            Calls both calc functions and then displays the results as a modified string.
+            </summary>
+        </member>
+        <member name="T:CalculatorGUI.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CalculatorGUI.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CalculatorGUI.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
