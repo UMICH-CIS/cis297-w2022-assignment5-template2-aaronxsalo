@@ -28,242 +28,188 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.button13 = new System.Windows.Forms.Button();
-         this.button14 = new System.Windows.Forms.Button();
-         this.button15 = new System.Windows.Forms.Button();
-         this.button16 = new System.Windows.Forms.Button();
-         this.button9 = new System.Windows.Forms.Button();
-         this.button10 = new System.Windows.Forms.Button();
-         this.button11 = new System.Windows.Forms.Button();
-         this.button12 = new System.Windows.Forms.Button();
-         this.button5 = new System.Windows.Forms.Button();
-         this.button6 = new System.Windows.Forms.Button();
-         this.button7 = new System.Windows.Forms.Button();
-         this.button8 = new System.Windows.Forms.Button();
-         this.button4 = new System.Windows.Forms.Button();
-         this.button3 = new System.Windows.Forms.Button();
-         this.button2 = new System.Windows.Forms.Button();
-         this.button1 = new System.Windows.Forms.Button();
-         this.textBox1 = new System.Windows.Forms.TextBox();
-         this.SuspendLayout();
-         // 
-         // button13
-         // 
-         this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button13.Location = new System.Drawing.Point( 189, 180 );
-         this.button13.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button13.Name = "button13";
-         this.button13.Size = new System.Drawing.Size( 63, 50 );
-         this.button13.TabIndex = 33;
-         this.button13.Text = "*";
-         // 
-         // button14
-         // 
-         this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button14.Location = new System.Drawing.Point( 126, 180 );
-         this.button14.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button14.Name = "button14";
-         this.button14.Size = new System.Drawing.Size( 63, 50 );
-         this.button14.TabIndex = 32;
-         this.button14.Text = "=";
-         // 
-         // button15
-         // 
-         this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button15.Location = new System.Drawing.Point( 63, 180 );
-         this.button15.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button15.Name = "button15";
-         this.button15.Size = new System.Drawing.Size( 63, 50 );
-         this.button15.TabIndex = 31;
-         this.button15.Text = ".";
-         // 
-         // button16
-         // 
-         this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button16.Location = new System.Drawing.Point( 0, 180 );
-         this.button16.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button16.Name = "button16";
-         this.button16.Size = new System.Drawing.Size( 63, 50 );
-         this.button16.TabIndex = 30;
-         this.button16.Text = "0";
-         // 
-         // button9
-         // 
-         this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button9.Location = new System.Drawing.Point( 189, 130 );
-         this.button9.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button9.Name = "button9";
-         this.button9.Size = new System.Drawing.Size( 63, 50 );
-         this.button9.TabIndex = 29;
-         this.button9.Text = "/";
-         // 
-         // button10
-         // 
-         this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button10.Location = new System.Drawing.Point( 126, 130 );
-         this.button10.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button10.Name = "button10";
-         this.button10.Size = new System.Drawing.Size( 63, 50 );
-         this.button10.TabIndex = 28;
-         this.button10.Text = "3";
-         // 
-         // button11
-         // 
-         this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button11.Location = new System.Drawing.Point( 63, 130 );
-         this.button11.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button11.Name = "button11";
-         this.button11.Size = new System.Drawing.Size( 63, 50 );
-         this.button11.TabIndex = 27;
-         this.button11.Text = "2";
-         // 
-         // button12
-         // 
-         this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button12.Location = new System.Drawing.Point( 0, 130 );
-         this.button12.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button12.Name = "button12";
-         this.button12.Size = new System.Drawing.Size( 63, 50 );
-         this.button12.TabIndex = 26;
-         this.button12.Text = "1";
-         // 
-         // button5
-         // 
-         this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button5.Location = new System.Drawing.Point( 189, 80 );
-         this.button5.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button5.Name = "button5";
-         this.button5.Size = new System.Drawing.Size( 63, 50 );
-         this.button5.TabIndex = 25;
-         this.button5.Text = "*";
-         // 
-         // button6
-         // 
-         this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button6.Location = new System.Drawing.Point( 126, 80 );
-         this.button6.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button6.Name = "button6";
-         this.button6.Size = new System.Drawing.Size( 63, 50 );
-         this.button6.TabIndex = 24;
-         this.button6.Text = "6";
-         // 
-         // button7
-         // 
-         this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button7.Location = new System.Drawing.Point( 63, 80 );
-         this.button7.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button7.Name = "button7";
-         this.button7.Size = new System.Drawing.Size( 63, 50 );
-         this.button7.TabIndex = 23;
-         this.button7.Text = "5";
-         // 
-         // button8
-         // 
-         this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button8.Location = new System.Drawing.Point( 0, 80 );
-         this.button8.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button8.Name = "button8";
-         this.button8.Size = new System.Drawing.Size( 63, 50 );
-         this.button8.TabIndex = 22;
-         this.button8.Text = "4";
-         // 
-         // button4
-         // 
-         this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button4.Location = new System.Drawing.Point( 189, 30 );
-         this.button4.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button4.Name = "button4";
-         this.button4.Size = new System.Drawing.Size( 63, 50 );
-         this.button4.TabIndex = 21;
-         this.button4.Text = "/";
-         // 
-         // button3
-         // 
-         this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button3.Location = new System.Drawing.Point( 126, 30 );
-         this.button3.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button3.Name = "button3";
-         this.button3.Size = new System.Drawing.Size( 63, 50 );
-         this.button3.TabIndex = 20;
-         this.button3.Text = "9";
-         // 
-         // button2
-         // 
-         this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button2.Location = new System.Drawing.Point( 63, 30 );
-         this.button2.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button2.Name = "button2";
-         this.button2.Size = new System.Drawing.Size( 63, 50 );
-         this.button2.TabIndex = 19;
-         this.button2.Text = "8";
-         // 
-         // button1
-         // 
-         this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button1.Location = new System.Drawing.Point( 0, 30 );
-         this.button1.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button1.Name = "button1";
-         this.button1.Size = new System.Drawing.Size( 63, 50 );
-         this.button1.TabIndex = 18;
-         this.button1.Text = "7";
-         // 
-         // textBox1
-         // 
-         this.textBox1.Location = new System.Drawing.Point( 0, 1 );
-         this.textBox1.Multiline = true;
-         this.textBox1.Name = "textBox1";
-         this.textBox1.Size = new System.Drawing.Size( 252, 26 );
-         this.textBox1.TabIndex = 17;
-         // 
-         // CalculatorGUIForm
-         // 
-         this.AutoScaleDimensions = new System.Drawing.SizeF( 7F, 15F );
-         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size( 252, 230 );
-         this.Controls.Add( this.button13 );
-         this.Controls.Add( this.button14 );
-         this.Controls.Add( this.button15 );
-         this.Controls.Add( this.button16 );
-         this.Controls.Add( this.button9 );
-         this.Controls.Add( this.button10 );
-         this.Controls.Add( this.button11 );
-         this.Controls.Add( this.button12 );
-         this.Controls.Add( this.button5 );
-         this.Controls.Add( this.button6 );
-         this.Controls.Add( this.button7 );
-         this.Controls.Add( this.button8 );
-         this.Controls.Add( this.button4 );
-         this.Controls.Add( this.button3 );
-         this.Controls.Add( this.button2 );
-         this.Controls.Add( this.button1 );
-         this.Controls.Add( this.textBox1 );
-         this.Font = new System.Drawing.Font( "Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ( ( byte ) ( 0 ) ) );
-         this.Name = "CalculatorGUIForm";
-         this.Text = "Calculator GUI";
-         this.ResumeLayout( false );
-         this.PerformLayout();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnSquareRoot = new System.Windows.Forms.Button();
+            this.btnQuadratic = new System.Windows.Forms.Button();
+            this.btnPowerX = new System.Windows.Forms.Button();
+            this.btnMinMax = new System.Windows.Forms.Button();
+            this.btnLogX = new System.Windows.Forms.Button();
+            this.btnLog10 = new System.Windows.Forms.Button();
+            this.btnQuotient = new System.Windows.Forms.Button();
+            this.btnReverse = new System.Windows.Forms.Button();
+            this.btnWhitespace = new System.Windows.Forms.Button();
+            this.txtInput1 = new System.Windows.Forms.TextBox();
+            this.txtInput2 = new System.Windows.Forms.TextBox();
+            this.txtOutput = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnExit
+            // 
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExit.Location = new System.Drawing.Point(146, 350);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(126, 50);
+            this.btnExit.TabIndex = 27;
+            this.btnExit.Text = "Exit";
+            // 
+            // btnSquareRoot
+            // 
+            this.btnSquareRoot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSquareRoot.Location = new System.Drawing.Point(20, 350);
+            this.btnSquareRoot.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSquareRoot.Name = "btnSquareRoot";
+            this.btnSquareRoot.Size = new System.Drawing.Size(126, 50);
+            this.btnSquareRoot.TabIndex = 26;
+            this.btnSquareRoot.Text = "Square Root";
+            // 
+            // btnQuadratic
+            // 
+            this.btnQuadratic.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnQuadratic.Location = new System.Drawing.Point(146, 300);
+            this.btnQuadratic.Margin = new System.Windows.Forms.Padding(0);
+            this.btnQuadratic.Name = "btnQuadratic";
+            this.btnQuadratic.Size = new System.Drawing.Size(126, 50);
+            this.btnQuadratic.TabIndex = 25;
+            this.btnQuadratic.Text = "Quadratic";
+            // 
+            // btnPowerX
+            // 
+            this.btnPowerX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPowerX.Location = new System.Drawing.Point(20, 300);
+            this.btnPowerX.Margin = new System.Windows.Forms.Padding(0);
+            this.btnPowerX.Name = "btnPowerX";
+            this.btnPowerX.Size = new System.Drawing.Size(126, 50);
+            this.btnPowerX.TabIndex = 24;
+            this.btnPowerX.Text = "Power X";
+            // 
+            // btnMinMax
+            // 
+            this.btnMinMax.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMinMax.Location = new System.Drawing.Point(146, 250);
+            this.btnMinMax.Margin = new System.Windows.Forms.Padding(0);
+            this.btnMinMax.Name = "btnMinMax";
+            this.btnMinMax.Size = new System.Drawing.Size(126, 50);
+            this.btnMinMax.TabIndex = 23;
+            this.btnMinMax.Text = "Min/Max";
+            // 
+            // btnLogX
+            // 
+            this.btnLogX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLogX.Location = new System.Drawing.Point(20, 250);
+            this.btnLogX.Margin = new System.Windows.Forms.Padding(0);
+            this.btnLogX.Name = "btnLogX";
+            this.btnLogX.Size = new System.Drawing.Size(126, 50);
+            this.btnLogX.TabIndex = 22;
+            this.btnLogX.Text = "Log Base X";
+            // 
+            // btnLog10
+            // 
+            this.btnLog10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLog10.Location = new System.Drawing.Point(146, 200);
+            this.btnLog10.Margin = new System.Windows.Forms.Padding(0);
+            this.btnLog10.Name = "btnLog10";
+            this.btnLog10.Size = new System.Drawing.Size(126, 50);
+            this.btnLog10.TabIndex = 21;
+            this.btnLog10.Text = "Log Base 10";
+            // 
+            // btnQuotient
+            // 
+            this.btnQuotient.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnQuotient.Location = new System.Drawing.Point(20, 200);
+            this.btnQuotient.Margin = new System.Windows.Forms.Padding(0);
+            this.btnQuotient.Name = "btnQuotient";
+            this.btnQuotient.Size = new System.Drawing.Size(126, 50);
+            this.btnQuotient.TabIndex = 20;
+            this.btnQuotient.Text = "Quotient";
+            // 
+            // btnReverse
+            // 
+            this.btnReverse.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnReverse.Location = new System.Drawing.Point(146, 150);
+            this.btnReverse.Margin = new System.Windows.Forms.Padding(0);
+            this.btnReverse.Name = "btnReverse";
+            this.btnReverse.Size = new System.Drawing.Size(126, 50);
+            this.btnReverse.TabIndex = 19;
+            this.btnReverse.Text = "Reverse";
+            // 
+            // btnWhitespace
+            // 
+            this.btnWhitespace.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnWhitespace.Location = new System.Drawing.Point(20, 150);
+            this.btnWhitespace.Margin = new System.Windows.Forms.Padding(0);
+            this.btnWhitespace.Name = "btnWhitespace";
+            this.btnWhitespace.Size = new System.Drawing.Size(126, 50);
+            this.btnWhitespace.TabIndex = 18;
+            this.btnWhitespace.Text = "Whitespace";
+            // 
+            // txtInput1
+            // 
+            this.txtInput1.Location = new System.Drawing.Point(20, 4);
+            this.txtInput1.Multiline = true;
+            this.txtInput1.Name = "txtInput1";
+            this.txtInput1.Size = new System.Drawing.Size(252, 26);
+            this.txtInput1.TabIndex = 17;
+            // 
+            // txtInput2
+            // 
+            this.txtInput2.Location = new System.Drawing.Point(20, 36);
+            this.txtInput2.Multiline = true;
+            this.txtInput2.Name = "txtInput2";
+            this.txtInput2.Size = new System.Drawing.Size(252, 26);
+            this.txtInput2.TabIndex = 28;
+            // 
+            // txtOutput
+            // 
+            this.txtOutput.BackColor = System.Drawing.SystemColors.Info;
+            this.txtOutput.Enabled = false;
+            this.txtOutput.Location = new System.Drawing.Point(20, 68);
+            this.txtOutput.Multiline = true;
+            this.txtOutput.Name = "txtOutput";
+            this.txtOutput.ReadOnly = true;
+            this.txtOutput.Size = new System.Drawing.Size(252, 79);
+            this.txtOutput.TabIndex = 29;
+            // 
+            // CalculatorGUIForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(293, 407);
+            this.Controls.Add(this.txtOutput);
+            this.Controls.Add(this.txtInput2);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnSquareRoot);
+            this.Controls.Add(this.btnQuadratic);
+            this.Controls.Add(this.btnPowerX);
+            this.Controls.Add(this.btnMinMax);
+            this.Controls.Add(this.btnLogX);
+            this.Controls.Add(this.btnLog10);
+            this.Controls.Add(this.btnQuotient);
+            this.Controls.Add(this.btnReverse);
+            this.Controls.Add(this.btnWhitespace);
+            this.Controls.Add(this.txtInput1);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name = "CalculatorGUIForm";
+            this.Text = "String/Math Calculator";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
       }
 
       #endregion
-
-      private System.Windows.Forms.Button button13;
-      private System.Windows.Forms.Button button14;
-      private System.Windows.Forms.Button button15;
-      private System.Windows.Forms.Button button16;
-      private System.Windows.Forms.Button button9;
-      private System.Windows.Forms.Button button10;
-      private System.Windows.Forms.Button button11;
-      private System.Windows.Forms.Button button12;
-      private System.Windows.Forms.Button button5;
-      private System.Windows.Forms.Button button6;
-      private System.Windows.Forms.Button button7;
-      private System.Windows.Forms.Button button8;
-      private System.Windows.Forms.Button button4;
-      private System.Windows.Forms.Button button3;
-      private System.Windows.Forms.Button button2;
-      private System.Windows.Forms.Button button1;
-      private System.Windows.Forms.TextBox textBox1;
-   }
+      private System.Windows.Forms.Button btnExit;
+      private System.Windows.Forms.Button btnSquareRoot;
+      private System.Windows.Forms.Button btnQuadratic;
+      private System.Windows.Forms.Button btnPowerX;
+      private System.Windows.Forms.Button btnMinMax;
+      private System.Windows.Forms.Button btnLogX;
+      private System.Windows.Forms.Button btnLog10;
+      private System.Windows.Forms.Button btnQuotient;
+      private System.Windows.Forms.Button btnReverse;
+      private System.Windows.Forms.Button btnWhitespace;
+      private System.Windows.Forms.TextBox txtInput1;
+        private System.Windows.Forms.TextBox txtInput2;
+        private System.Windows.Forms.TextBox txtOutput;
+    }
 }
 
